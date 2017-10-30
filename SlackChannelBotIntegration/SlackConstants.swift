@@ -10,12 +10,12 @@ import Foundation
 
 enum SlackID: String {
     case botUser = "dummy-bot"
-    case botToken = "xoxb-263493495364-ynuf6gDDo3oX77iQAcu4FaS9"
+    case botToken = "xoxb-SLACK_GENERATED_ID"
     
-    case slackExampleClientID = "262766322512.263718856515"
-    case slackExampleSecret = "dab30457e5e163fb65b22ff6ced7ac23"
-    case slackExampleVerificationToken = "OCmsehQ7MZpxPyNPykcKih9w"
-    case slackExampleID = "xoxp-262766322512-263558399397-263803746146-9fc84bba6f73262406659ac1fdd8a273"
+    case slackExampleClientID = "SLACK_GENERATED_ID"
+    case slackExampleSecret = "SLACK_GENERATED_SECRET"
+    case slackExampleVerificationToken = "SLACK_GENERATED_VERIFICATION_TOKEN"
+    case slackExampleID = "xoxp-SLACK_GENERATED_ID"
 }
 
 struct Slack {
